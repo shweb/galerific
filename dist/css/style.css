@@ -3,6 +3,11 @@ hr.hr-info{
 	 border: 5px solid #5bc0de;
 }
 
+
+.vertical-middle{
+	margin-top:90px;
+}
+
 .container.banner{
 	margin-top:25px;
 	margin-bottom:30px;
@@ -34,78 +39,73 @@ div.header{
 }
 
 .form-control-transparent{
+	margin-top:10px;
 	background-color:transparent;
+	border:1px solid #333;
 }
 
-/* .social-buttons{
-	margin-top:30px;
-} */
-.social-btn{
+a.social-btn {
+	padding:0;
+	display:block;
 	float:left;
 	width:44px;
 	height:44px;
 	margin-top:30px;
-	margin-right:20px;
+	margin-left:20px;
 }
 
-.Twitter{
-	width:44px;
-	height:44px;
-	background: url(../img/twitter.png) center;
-	background-size:cover;
+.btn-go{
+	margin-top:10px;
+	color:#5bc0de;
+	background: transparent;
+	border:1px solid #333;
 }
-.Linkedin{
-	width:44px;
-	height:44px;
-	background: url(../img/linkedin.png) center;
-	background-size:cover;
-}
-.Facebook{
-	width:44px;
-	height:44px;
-	background: url(../img/facebook.png)center;
-	background-size:cover;
-}
-.RSS{
-	width:44px;
-	height:44px;
-	background: url(../img/rss.png)center;
-	background-size:cover;
+.btn-go:hover{
+	color:#333;
+	background-color:#ddd;
 }
 
-footer { background-color:#0c1a1e; min-height:350px; }
-.footerleft { margin-top:50px; padding:0 36px; }
-.logofooter { margin-bottom:10px; color:#979797; font-weight:700;}
-
-.footerleft p { color:#979797; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
-.footerleft p i { width:20px; color:#999;}
-
-
-.paddingtop-bottom {  margin-top:50px;}
-
-.paddingtop-bottom h5{ color:#40aed7; margin-bottom:15px;}
-.paddingtop-bottom P{  color:#979797; font-size:12px }
-
-.social:hover {
+.social-btn:hover {
      -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
      -o-transform: scale(1.1);
  }
- 
- 
+
+.Twitter{
+	background: url(../img/twitter.png) center;
+	background-size:cover;
+}
+.Linkedin{
+	background: url(../img/linkedin.png) center;
+	background-size:cover;
+}
+.Facebook{
+	background: url(../img/facebook.png)center;
+	background-size:cover;
+}
+.RSS{
+	background: url(../img/rss.png)center;
+	background-size:cover;
+}
+
+footer { background-color:#1b1b1b; min-height:300px; padding-top:37px}
+
+.footer-content h4{color:#fff; font-size:16px;padding-bottom:25px}
+.footerleft { padding:0 36px; }
+
+.footerleft p { color:#979797; font-size:12px !important;}
+.footerleft p i { width:20px; color:#999;}
+
+ .footerleft ul{ list-style-type:none;color:8f8f8f; margin-bottom:0px; margin:0; padding:0;}
+ .footerleft li { line-height:20px;}
+ .footerleft li a{ color:#FFF;  font-size:12px;}
+ .footerleft p{ margin-top:30px;}
+
+.paddingtop-bottom h5{ color:#40aed7; margin-bottom:20px;}
+.paddingtop-bottom P{  color:#979797; font-size:12px }
 
  
- .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
- .icon-ul li { line-height:75px; width:100%; float:left;}
- .icon { float:left; margin-right:5px;}
  
- 
- .copyright { min-height:40px; background-color:#000000;}
- .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
- .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
- .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .copyright { min-height:60px; background-color:#161616;}
+ .copyright p { text-align:left; color:#FFF; padding:20px 0; margin-bottom:0px;}
  .post p span { display:block; color:#8f8f8f;}
- .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
- .bottom_ul li { float:left; line-height:40px;}
- .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
- .bottom_ul li a { color:#FFF;  font-size:12px;}
